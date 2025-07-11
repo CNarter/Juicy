@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 export default function App() {
   const [view, setView] = useState('booking'); // 'booking' or 'menu'
+  const userId = "guest"; // Add this line or fetch from your auth/user logic
 
   return (
     // Main container: Use the cream background and body font
